@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Curator - Smart Museum Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 AI-Curator Museum Guide</h1>
+
+        <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+
+        <form id="searchForm">
+            <label for="searchInput">What topic interests you?</label>
+            <input type="text" id="searchInput" placeholder="e.g., AI, History, Science..." required>
+            
+            <button type="submit">Search 🚀</button>
+        </form>
+
+        <div id="loading" style="display: none;">⏳ Searching... Please wait.</div>
+
+    
+        <div id="filterOptions" class="filters"></div>
+
+        <div id="results"></div>
+
+        <h2>📌 Bookmarked Articles</h2>
+        <ul id="bookmarkedTours"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    transition: background 0.3s;
+    background: url('image.png') no-repeat center center fixed;
+    background-size: cover;  /* Ensures full-page coverage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container {
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    transition: background 0.3s;
+    background-color: antiquewhite;
+    
+}
+
+h1 {
+    color: #007BFF;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#loading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007BFF;
+    margin: 10px 0;
+}
+
+.filters {
+    margin: 10px 0;
+}
+
+.filter-btn {
+    background: #FFCC00;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.filter-btn:hover {
+    background: #E6B800;
+}
+
+
+.dark-mode {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .container {
+    background: #333;
+}
+
+.dark-mode h1 {
+    color: #FFCC00;
+}
+
+#bookmarkedTours li {
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
